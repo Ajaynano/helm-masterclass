@@ -1,0 +1,5 @@
+configMapEnvConstant:
+  data:
+    environmentJson:
+      urls:
+        api1: "https://test-dev.azure.cloud.com"
