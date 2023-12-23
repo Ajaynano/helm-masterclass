@@ -5,5 +5,5 @@ dependencies:
 - name: mychart2
   repository: file://charts/mychart2
   version: 0.4.0
-digest: sha256:52aded035184cd4cbd06c56158c6158c0fcf1833983bc81ba5713559922daae9
-generated: "2023-08-01T14:12:03.194907+05:30"
+digest: sha256:3e40c329938f9c7cc1b008fe2ccf8acd637f882ed1919303e7bdf4f3de43119b
+generated: "2023-10-12T06:41:29.6374534+05:30"

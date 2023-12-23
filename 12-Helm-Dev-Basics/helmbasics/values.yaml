@@ -1,4 +1,4 @@
-releaseName: "kalyan"
+releaseName: "AJ-release"
 replicaCount: 0
 
 # Resources for testing Template Function: toYaml 

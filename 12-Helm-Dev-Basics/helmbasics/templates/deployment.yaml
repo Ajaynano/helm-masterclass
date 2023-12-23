@@ -11,7 +11,7 @@ metadata:
     # Pipeline
     app.kubernetes.io/managed-by: {{ .Release.Service | quote | upper | lower }}        
     # default Function
-    app.kubernetes.io/name: {{ default "MYRELEASE101" .Values.releaseName | lower }}
+    app.kubernetes.io/name: {{ default "MYRELEASE101" .Values.releaseName }}
     # Controlling Leading and Trailing White spaces 
     leading-whitespace: "   {{- .Chart.Name }}    kalyan"
     trailing-whitespace: "   {{ .Chart.Name -}}    kalyan"
