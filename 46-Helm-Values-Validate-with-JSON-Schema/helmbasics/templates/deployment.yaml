@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{ .Release.Name }}-{{ .Chart.Name }}
   labels:
-    {{- include "ovc-app.lables" . }}
+    {{- include "demo.labels" . }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        {{- include "ovc-app.lables" . | nindent 2 }}
+        {{- include "demo.labels" . | nindent 2 }}
     spec:
       containers:
       - name: nginx
